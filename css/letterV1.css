@@ -1,0 +1,45 @@
+::-webkit-scrollbar{width: 10px;}
+::-webkit-scrollbar-track {background-color:#FFFFFF;}
+::-webkit-scrollbar-thumb {background-color:#83ee61;}
+::-webkit-scrollbar-thumb:hover {background: #83ee61;}
+::-webkit-scrollbar-button:start:decrement, ::-webkit-scrollbar-button:end:increment {
+    width:10px;
+    height:20px;
+    background:#83ee61;
+}
+
+body {
+    background-image: url('../images/letter01.jpg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 300vh;
+}
+
+span {
+    font-family: 'font';
+    font-size: 20px;
+    font-weight: normal;
+    word-spacing: 5px;
+}
+
+.text {
+    position: absolute;
+    top: 76%;
+    left: 26%;
+    text-align: left;
+    display: block;
+}
+
+.text2 {
+    position: absolute;
+    top: 96%;
+    left: 12%;
+    text-align: left;
+    display: block;
+}
+
+@font-face {
+    font-family: 'font';
+    src: url('../font/DXSugarplum.ttf');
+}

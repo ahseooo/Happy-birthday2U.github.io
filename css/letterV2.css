@@ -1,0 +1,56 @@
+::-webkit-scrollbar{width: 10px;}
+::-webkit-scrollbar-track {background-color:#FFFFFF;}
+::-webkit-scrollbar-thumb {background-color:#83ee61;}
+::-webkit-scrollbar-thumb:hover {background: #83ee61;}
+::-webkit-scrollbar-button:start:decrement,::-webkit-scrollbar-button:end:increment {
+    width:10px;
+    height:20px;
+    background:#83ee61;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+span {
+    
+    font-family: 'font';
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 35px;
+    margin-left: 25px;
+    word-spacing: 5px;
+}
+
+.bg {
+    background: url('../images/letter02.jpg');
+    background-size: cover;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.bg::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background: -webkit-linear-gradient(-70deg, #FFFFFF 0%, #4b4b4b 70%);
+    opacity: 0.7;
+}
+
+.text{
+    text-align: left;
+    position: relative;
+    display: block;
+}
+
+@font-face {
+    font-family: 'font';
+    src: url('../font/DX내친구L.ttf');
+}
